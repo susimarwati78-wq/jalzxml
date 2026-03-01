@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Suntik Sosmed Murah</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(135deg,#000000,#0f2027,#203a43);
+color:white;
+}
+
+/* HEADER */
+
+header{
+
+text-align:center;
+padding:35px;
+font-size:32px;
+font-weight:bold;
+background:black;
+box-shadow:0px 0px 30px #00ffd5;
+
+}
+
+.sub{
+
+text-align:center;
+color:#00ffd5;
+margin-bottom:20px;
+
+}
+
+/* CONTAINER */
+
+.container{
+
+max-width:1200px;
+margin:auto;
+padding:20px;
+
+}
+
+/* SECTION */
+
+.section{
+
+margin-top:50px;
+
+}
+
+.title{
+
+font-size:28px;
+color:#00ffd5;
+margin-bottom:20px;
+
+}
+
+/* GRID */
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+gap:18px;
+
+}
+
+/* CARD */
+
+.card{
+
+background:#111;
+border-radius:18px;
+padding:18px;
+text-align:center;
+box-shadow:0px 0px 15px rgba(0,0,0,0.6);
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+box-shadow:0px 0px 20px #00ffd5;
+
+}
+
+.nama{
+
+font-size:18px;
+margin-bottom:8px;
+
+}
+
+.harga{
+
+font-size:23px;
+color:#00ffd5;
+margin-bottom:12px;
+
+}
+
+/* BUTTON */
+
+.btn{
+
+display:block;
+background:#25D366;
+padding:11px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+
+}
+
+.btn:hover{
+
+background:#1ebc5c;
+
+}
+
+/* FLOAT WA */
+
+.float{
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
+box-shadow:0px 0px 20px #25D366;
+
+}
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:black;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<header>
+
+🚀 SUNTIK SOSMED MURAH
+
+</header>
+
+<div class="sub">
+
+Followers • Likes • FYP <br>
+Fast Respon ⚡ Aman ✔ Murah ✔
+
+</div>
+
+
+
+<div class="container">
+
+
+
+<script>
+
+let wa="https://wa.me/6285857130940?text=Halo%20Saya%20Mau%20Order%20";
+
+/* FUNCTION */
+
+function buat(nama,harga){
+
+document.write(`
+
+<div class="card">
+
+<div class="nama">${nama}</div>
+
+<div class="harga">Rp ${harga}</div>
+
+<a class="btn" href="${wa+nama}">
+Order WhatsApp
+</a>
+
+</div>
+
+`);
+
+}
+
+
+/* TIKTOK FOLLOWERS */
+
+document.write('<div class="section"><div class="title">🎵 Followers TikTok</div><div class="grid">');
+
+buat("100 Followers TikTok",3000);
+buat("200 Followers TikTok",5000);
+buat("300 Followers TikTok",7000);
+buat("400 Followers TikTok",9000);
+buat("500 Followers TikTok",10000);
+buat("600 Followers TikTok",11000);
+buat("700 Followers TikTok",13000);
+buat("800 Followers TikTok",15000);
+buat("900 Followers TikTok",17000);
+buat("1000 Followers TikTok",20000);
+
+document.write('</div></div>');
+
+
+/* TIKTOK LIKES */
+
+document.write('<div class="section"><div class="title">❤️ Likes TikTok</div><div class="grid">');
+
+buat("100 Likes TikTok",1500);
+buat("200 Likes TikTok",3000);
+buat("300 Likes TikTok",4500);
+buat("400 Likes TikTok",6000);
+buat("500 Likes TikTok",7500);
+buat("600 Likes TikTok",9000);
+buat("700 Likes TikTok",10000);
+buat("800 Likes TikTok",11000);
+buat("900 Likes TikTok",12000);
+buat("1000 Likes TikTok",13000);
+
+document.write('</div></div>');
+
+
+/* TIKTOK FYP */
+
+document.write('<div class="section"><div class="title">🔥 FYP TikTok</div><div class="grid">');
+
+buat("2K FYP TikTok",2000);
+buat("3K FYP TikTok",3000);
+buat("4K FYP TikTok",4000);
+buat("5K FYP TikTok",5000);
+buat("6K FYP TikTok",6000);
+buat("7K FYP TikTok",7000);
+buat("8K FYP TikTok",8000);
+buat("9K FYP TikTok",9000);
+buat("10K FYP TikTok",10000);
+
+document.write('</div></div>');
+
+
+/* IG FOLLOWERS */
+
+document.write('<div class="section"><div class="title">📸 Followers Instagram</div><div class="grid">');
+
+buat("100 Followers Instagram",3000);
+buat("200 Followers Instagram",6000);
+buat("300 Followers Instagram",8000);
+buat("400 Followers Instagram",10000);
+buat("500 Followers Instagram",12000);
+buat("600 Followers Instagram",14000);
+buat("700 Followers Instagram",16000);
+buat("800 Followers Instagram",18000);
+buat("900 Followers Instagram",19000);
+buat("1000 Followers Instagram",20000);
+
+document.write('</div></div>');
+
+
+/* IG LIKES */
+
+document.write('<div class="section"><div class="title">❤️ Likes Instagram</div><div class="grid">');
+
+buat("100 Likes Instagram",1500);
+buat("200 Likes Instagram",3000);
+buat("300 Likes Instagram",4500);
+buat("400 Likes Instagram",6000);
+buat("500 Likes Instagram",7500);
+buat("600 Likes Instagram",9000);
+buat("700 Likes Instagram",10000);
+buat("800 Likes Instagram",11000);
+buat("900 Likes Instagram",12000);
+buat("1000 Likes Instagram",13000);
+
+document.write('</div></div>');
+
+
+/* IG FYP */
+
+document.write('<div class="section"><div class="title">🔥 FYP Instagram</div><div class="grid">');
+
+buat("2K FYP Instagram",2000);
+buat("3K FYP Instagram",3000);
+buat("4K FYP Instagram",4000);
+buat("5K FYP Instagram",5000);
+buat("6K FYP Instagram",6000);
+buat("7K FYP Instagram",7000);
+buat("8K FYP Instagram",8000);
+buat("9K FYP Instagram",9000);
+buat("10K FYP Instagram",10000);
+
+document.write('</div></div>');
+
+</script>
+
+
+
+</div>
+
+
+
+<a class="float" href="https://wa.me/6285857130940">
+
+Chat WA
+
+</a>
+
+
+
+<footer>
+
+Website Order Suntik Sosmed 🚀 <br>
+
+Klik Tombol WhatsApp Untuk Order
+
+</footer>
+
+
+
+</body>
+</html>
